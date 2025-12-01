@@ -7,3 +7,7 @@ module "ec2" {
 output "public_ip" {
     module = module.ec2.public_ip
 }
+
+output "private_ip" {
+    module = module.ec2.private_ip
+}
