@@ -11,3 +11,7 @@ output "public_ip" {
 output "private_ip" {
     module = module.ec2.private_ip
 }
+
+output "sg_id" {
+    module = module.ec2.sg_id
+}
