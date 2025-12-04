@@ -19,3 +19,11 @@ output "sg_id" {
 output "instance_type" {
     module = module.ec2.instance_type
 }
+
+output "sg_id" {
+    module = module.ec2.sg_id
+}
+
+output "instance_type" {
+    module = module.ec2.instance_type
+}
