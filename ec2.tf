@@ -477,3 +477,4 @@ output "sg_id" {
 output "instance_type" {
     module = module.ec2.instance_type
 }
+
